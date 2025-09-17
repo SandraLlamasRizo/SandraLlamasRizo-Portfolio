@@ -1,0 +1,304 @@
+{
+    "basics": {
+      "name": "Sandra Llamas Rizo",
+      "label": "Frontend Developer | UX/UI Designer",
+      "image": "",
+      "email": "sandrallamasrizo@gmail.com",
+      "phone": "(34) 645224827",
+      "url": "-",
+      "summary": "Hi, I’m Sandra - passionate about crafting interfaces that look beautiful and feel intuitive.",
+      "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "region": "Catalonia"
+      },
+      "profiles": [{
+        "network": "Linkedin",
+        "username": "sandrallamasrizo",
+        "url": "https://linkedin/in/sandrallamasrizo"
+      }, {
+        "network": "GitHub",
+        "username": "SandraLlamasRizo",
+        "url": "https://github.com/SandraLlamasRizo"
+      }
+    ]
+    },
+    "work": [{
+      "name": "LETSMEP",
+      "position": "Software developer",
+      "url": "https://letsmep.com",
+      "startDate": "2025-04-20",
+      "endDate": "-",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Upgrade Hub",
+      "url": "https://www.upgrade-hub.com/",
+      "area": "Frontend Development",
+      "studyType": "Bootcamp",
+      "startDate": "2024-10-01",
+      "endDate": "2025-03-20",
+      "score": "",
+      "courses": [
+        "HTML", "CSS", "JavaScript", "Angular", "React"
+      ]
+    }, {
+      "institution": "Avocademy",
+      "url": "https://www.avocademy.com/",
+      "area": "UX/UI Design",
+      "studyType": "Bootcamp",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
+      "score": "",
+      "courses": [
+        "User research", "Ideation", "UX Design", "UI Design", "Portfolio Building"
+      ]
+    }, {
+      "institution": "University of Athens",
+      "url": "https://en.uoa.gr/",
+      "area": "Chemistry",
+      "studyType": "PhD",
+      "startDate": "2021-10-01",
+      "endDate": "2024-09-30",
+      "score": "",
+      "courses": [
+        "Research", "Teaching", "Scientific writing", "Critical thinking"
+      ]
+    }, {
+      "institution": "University of Barcelona",
+      "url": "https://web.ub.edu/inici",
+      "area": "Organic Chemistry",
+      "studyType": "Master",
+      "startDate": "2019-09-07",
+      "endDate": "2020-11-20",
+      "score": "8.1",
+      "courses": [
+        "Organic chemistry"
+      ]
+    }, {
+      "institution": "University of Barcelona",
+      "url": "https://web.ub.edu/inici",
+      "area": "Chemistry",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-07",
+      "endDate": "2019-06-30",
+      "score": "8.1",
+      "courses": [
+        "Chemistry"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate SCRUM FOUNDATION PROFESIONAL",
+      "date": "2025-03-01",
+      "issuer": "CompanyCertione",
+      "url": "https://certione.org/certificate-verification/36E5FE1-36E5F17-312ADA6/"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Angular",
+        "Tailwind CSS",
+        "Responsive Design",
+        "REST APIs",
+        "Git & GitHub"
+      ]
+    },
+    {
+      "name": "UX/UI Design",
+      "level": "Advanced",
+      "keywords": [
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "Figma",
+        "Adobe XD",
+        "Usability Testing",
+        "Interaction Design",
+        "Design Systems",
+        "User Flows"
+      ]
+    }],
+    "hardSkills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Angular",
+      "Tailwind CSS",
+      "Responsive Design",
+      "REST APIs",
+      "Git & GitHub",
+      "UX Research",
+      "Wireframing",
+      "Prototyping",
+      "Figma",
+      "Adobe XD",
+      "Usability Testing",
+      "Design Systems"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Critical Thinking",
+      "Creativity",
+      "Attention to Detail",
+      "Adaptability",
+      "Communication",
+      "Collaboration",
+      "Time Management",
+      "Empathy",
+      "User-Centered Mindset",
+      "Curiosity",
+      "Self-Motivation",
+      "Teamwork",
+      "Flexibility",
+      "Conflict Resolution"
+    ],
+    "languages": [{
+      "language": "English",
+      "fluency": "Advanced speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Greek",
+      "fluency": "Begginer speaker"
+    }],
+    "interests": [{
+      "name": "Sports",
+      "keywords": [
+        "Synchronised swimming",
+        "Ballet",
+        "Yoga",
+        "Aerial yoga",
+        "Running"
+      ]
+    },
+    {
+      "name": "Selfcare",
+      "keywords": [
+        "Psychology podcast",
+        "Meditation",
+        "Journaling",
+        "Reading"
+      ]
+    },
+    {
+      "name": "Nature",
+      "keywords": [
+        "Walks in the mountain",
+        "Beach",
+        "Pet wild animals",
+        "Sunsets"
+      ]
+    },
+    {
+      "name": "Social",
+      "keywords": [
+        "Long talks",
+        "Coffee with friends",
+        "Play team sports",
+        "Go dancing",
+        "Pizza and movie night with friends"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "CRM-People",
+        "startDate": "2025-02-01",
+        "endDate": "2025-03-15",
+        "description": "CRM web app to manage clients and employees.",
+        "highlights": [
+          "Developed with React.js & Tailwind CSS",
+          "Implemented shared state management with BehaviorSubject",
+          "Colaborated with a frontend team using Git for version control"
+        ],
+        "url": "https://github.com/SandraLlamasRizo/Crm-People",
+        "tools": ["React.js", "Tailwind CSS", "GitHub"]
+      },
+      {
+        "name": "DailySandraGazette",
+        "startDate": "2025-01-15",
+        "endDate": "2025-02-28",
+        "description": "Online newspaper website.",
+        "highlights": [
+          "Built using Angular & TypeScript",
+          "Responsive design and dynamic content"
+        ],
+        "url": "https://github.com/SandraLlamasRizo/DailySandraGazette",
+        "tools": ["Angular.ts", "GitHub"]
+      },
+      {
+        "name": "ThriftShop",
+        "startDate": "2025-02-01",
+        "endDate": "2025-03-15",
+        "description": "Tienda online de ropa de segunda mano.",
+        "highlights": [
+          "Desarrollado con Astro + Tailwind CSS; integración de pagos con Stripe",
+          "Catálogo responsive con filtros, checkout accesible y optimización SEO; desplegado en Vercel"
+        ],
+        "url": "https://github.com/SandraLlamasRizo/ThriftShop",
+        "tools": ["HTML", "CSS", "JavaScript", "GitHub"]
+      },
+      {
+        "name": "HamburgueseriaRovers",
+        "startDate": "2024-12-01",
+        "endDate": "2025-01-05",
+        "description": "Burger restaurant website.",
+        "highlights": [
+          "HTML, CSS & JS",
+          "Interactive menu and ordering section"
+        ],
+        "url": "https://github.com/SandraLlamasRizo/HamburgueseriaRovers",
+        "tools": ["HTML", "CSS", "GitHub"]
+      },
+      {
+        "name": "Aeroyogui",
+        "startDate": "2024-04-01",
+        "endDate": "2024-05-01",
+        "description": "Final project from UX/UI bootcamp focused on aeroyoga users.",
+        "highlights": [
+          "User-centered design",
+          "High-fidelity prototype in Figma"
+        ],
+        "url": "https://github.com/SandraLlamasRizo/Aeroyogui",
+        "tools": ["Figma"]
+      }
+    ]
+  }

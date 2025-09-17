@@ -1,0 +1,58 @@
+---
+import { basics } from "@cv"
+import logo from '@/assets/logo.png'
+
+const { name, label, location, summary } = basics
+const { city, country } = location
+const nameUpper = name.toUpperCase()
+---
+
+<section>
+    <h1>{nameUpper}</h1>
+    <h2>{label}</h2>
+    <div>
+        <figure><img id="logo" src={logo.src} alt="Logo"></figure>
+        <p>{summary}</p>
+    </div>
+</section>
+
+<style>
+    section {
+        width: 100%;
+        height: calc(100dvh - 160px);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div {
+        flex: 1;
+        display: flex;
+        gap: 30px;
+        height: 50%;
+        align-items: center;
+    }
+
+    figure {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 20px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    p {
+        font-size: 1.75rem;
+        flex: 1; /* texto ocupa el resto del espacio */
+        align-self: center;
+    }
+</style>

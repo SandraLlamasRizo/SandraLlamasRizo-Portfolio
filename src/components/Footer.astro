@@ -1,0 +1,73 @@
+---
+import { basics } from "@cv"
+import Mail from '@/icons/Mail.astro'
+import Phone from '@/icons/Phone.astro'
+import Linkedin from '@/icons/Linkedin.astro'
+import GitHub from '@/icons/GitHub.astro'
+
+const SOCIAL_ICONS: Record<string, any> = { Linkedin, GitHub}
+
+const { email, phone,  profiles } = basics
+---
+<footer>
+    <ul>
+        {
+            email &&
+            <a
+                href={`mailto:${email}`}
+                title={`Send email to ${email}`}
+                target="_blank"
+        
+            >
+                <Mail />
+            </a>
+        }
+
+        {
+            phone &&
+            <a
+                href={`tel:${phone}`}
+                title={`Call ${phone}`}
+                target="_blank"
+
+            >
+                <Phone />
+            </a>
+        }
+
+        {
+            profiles.map(( {network, url, username} ) => {
+                const Icon = SOCIAL_ICONS[network]
+
+                return (
+                    <a
+                        href={url}
+                        title={`See profile ${username} in ${network}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Icon />
+                    </a>
+                )
+            })
+        }
+
+
+        
+    </ul>
+</footer>
+
+<style>
+    footer {
+        color: var(--text);
+        padding: 20px;
+        height: 80px;
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+</style>
