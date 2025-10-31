@@ -28,6 +28,7 @@ import NavBar from "@/components/NavBar.astro";
     --primary: #9B8FB2;
     --primary-hover: #5A497A;
     --secondary: #E07A5F;
+    --secondary-hover: #dd6949;
     --tertiary: #F2CC8F;
     --text: #4B4453;
   }
@@ -43,7 +44,7 @@ import NavBar from "@/components/NavBar.astro";
   }
 
   :global(main) {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
   }
 
@@ -78,10 +79,31 @@ import NavBar from "@/components/NavBar.astro";
     font-weight: 200;
   }
 
+  :global(h3) {
+    font-size: 1.75rem;
+    font-weight: 200;
+  }
+
+  :global(h4) {
+    font-size: 1.37rem;
+    font-weight: 100;
+  }
+
+  :global(h5) {
+    font-size: 1.12rem;
+    font-weight: 100;
+  }
+
+  :global(h6) {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
   :global(p) {
     line-height: 1.5;
     margin: 0;
     word-wrap: break-word;
+    font-weight: 100;
   }
 
 </style>

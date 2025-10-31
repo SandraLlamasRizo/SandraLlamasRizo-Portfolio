@@ -6,7 +6,7 @@
       "email": "sandrallamasrizo@gmail.com",
       "phone": "(34) 645224827",
       "url": "-",
-      "summary": "Hi, I’m Sandra - passionate about crafting interfaces that look beautiful and feel intuitive.",
+      "summary": "I love creating interfaces that feel intuitive and engaging — mixing creativity with a bit of logic to bring ideas to life.",
       "location": {
         "city": "Barcelona",
         "country": "Spain",
@@ -21,7 +21,18 @@
         "username": "SandraLlamasRizo",
         "url": "https://github.com/SandraLlamasRizo"
       }
-    ]
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Angular",
+        "Tailwind",
+        "Git",
+        "Figma"
+      ]
     },
     "work": [{
       "name": "LETSMEP",
@@ -240,6 +251,35 @@
     }],
     "projects": [
       {
+        "name": "LETSMEP-pluggin",
+        "startDate": "2025-04-022",
+        "endDate": "2025-08-15",
+        "description": "LETSMEP software to calculate engineering of a construction.",
+        "highlights": [
+          "Developed with Angular",
+          "Implementing Guards, Auth0, translation and Google Maps",
+          "Colaborated with the software development team using Git for version control"
+        ],
+        "url": "https://polite-glacier-0009dbc03.2.azurestaticapps.net/",
+        "tools": ["Angular.ts", "Auth0", "GitHub"],
+        "role": "UX-UI designer and Frontend developer",
+        "image": "letsmepPluggin.png"
+      },
+      {
+        "name": "LETSMEP-website",
+        "startDate": "2025-04-022",
+        "endDate": "2025-05-31",
+        "description": "LETSMEP comercial web to atract and inform clients.",
+        "highlights": [
+          "Developed with Vue.js",
+          "Colaborated with the software development team using Git for version control"
+        ],
+        "url": "https://www.letsmep.com/",
+        "tools": ["Vue.js", "GitHub"],
+        "role": "Frontend developer",
+        "image": "letsmepWeb.png"
+      },
+      {
         "name": "CRM-People",
         "startDate": "2025-02-01",
         "endDate": "2025-03-15",
@@ -250,7 +290,9 @@
           "Colaborated with a frontend team using Git for version control"
         ],
         "url": "https://github.com/SandraLlamasRizo/Crm-People",
-        "tools": ["React.js", "Tailwind CSS", "GitHub"]
+        "tools": ["React.js", "Tailwind CSS", "GitHub"],
+        "role": "UX-UI designer and Frontend developer",
+        "image": "crm.png"
       },
       {
         "name": "DailySandraGazette",
@@ -262,7 +304,9 @@
           "Responsive design and dynamic content"
         ],
         "url": "https://github.com/SandraLlamasRizo/DailySandraGazette",
-        "tools": ["Angular.ts", "GitHub"]
+        "tools": ["Angular.ts", "GitHub"],
+        "role": "UX-UI designer and Frontend developer",
+        "image": "dailySandraGazette.png"
       },
       {
         "name": "ThriftShop",
@@ -274,7 +318,9 @@
           "Catálogo responsive con filtros, checkout accesible y optimización SEO; desplegado en Vercel"
         ],
         "url": "https://github.com/SandraLlamasRizo/ThriftShop",
-        "tools": ["HTML", "CSS", "JavaScript", "GitHub"]
+        "tools": ["HTML", "CSS", "JavaScript", "GitHub"],
+        "role": "UX-UI designer and Frontend developer",
+        "image": "thriftshop.png"
       },
       {
         "name": "HamburgueseriaRovers",
@@ -286,7 +332,9 @@
           "Interactive menu and ordering section"
         ],
         "url": "https://github.com/SandraLlamasRizo/HamburgueseriaRovers",
-        "tools": ["HTML", "CSS", "GitHub"]
+        "tools": ["HTML", "CSS", "GitHub"],
+        "role": "Frontend developer",
+        "image": "hamburgueseriaRovers.png"
       },
       {
         "name": "Aeroyogui",
@@ -298,7 +346,9 @@
           "High-fidelity prototype in Figma"
         ],
         "url": "https://github.com/SandraLlamasRizo/Aeroyogui",
-        "tools": ["Figma"]
+        "tools": ["Figma"],
+        "role": "UX-UI designer",
+        "image": "aeroyogui.png"
       }
     ]
   }

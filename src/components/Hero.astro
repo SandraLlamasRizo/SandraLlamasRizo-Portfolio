@@ -2,7 +2,7 @@
 import { basics } from "@cv"
 import logo from '@/assets/logo.png'
 
-const { name, label, location, summary } = basics
+const { name, label, location, summary, tools } = basics
 const { city, country } = location
 const nameUpper = name.toUpperCase()
 ---
@@ -12,7 +12,17 @@ const nameUpper = name.toUpperCase()
     <h2>{label}</h2>
     <div>
         <figure><img id="logo" src={logo.src} alt="Logo"></figure>
-        <p>{summary}</p>
+        <article>
+            <h3>{summary}</h3>
+            <ul>
+                {tools.map((tool) => (
+                    <li class="tool">{tool}</li>
+                )
+                )}
+            </ul>
+            <a href="/work">See my work</a>
+            <h6>{city}, {country}</h6>
+        </article>
     </div>
 </section>
 
@@ -30,18 +40,29 @@ const nameUpper = name.toUpperCase()
     div {
         flex: 1;
         display: flex;
-        gap: 30px;
+        gap: 20px;
         height: 50%;
         align-items: center;
+        padding-top: 30px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        height: 100%;
+        justify-content: center;
+        align-items: start;
+        width: 50%;
+        box-sizing: border-box;
     }
 
     figure {
-        flex: 1;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
-        margin: 20px;
     }
 
     img {
@@ -50,9 +71,37 @@ const nameUpper = name.toUpperCase()
         object-fit: contain;
     }
 
-    p {
+    h3 {
         font-size: 1.75rem;
-        flex: 1; /* texto ocupa el resto del espacio */
-        align-self: center;
+        font-weight: 400;
+        text-align: start;
+        font-family: 'Montserrat', sans-serif;
     }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    h6 {
+        font-size: 1.12rem;
+    }
+
+    a {
+        background-color: var(--secondary);
+        color: var(--background);
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    a:hover {
+        background-color: var(--secondary-hover);
+    }
+
 </style>

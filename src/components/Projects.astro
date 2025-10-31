@@ -1,0 +1,119 @@
+---
+import { projects } from "@cv"
+
+const projectImages = import.meta.glob<{ default: { src: string } }>('/src/assets/projects/*', { eager: true })
+
+---
+
+<section>
+    {
+        projects.map(( {name, startDate, endDate, description, highlights, url, tools, role, image}) => {
+            const img = projectImages[`/src/assets/projects/${image}`]
+            return(
+                <article>
+                    <a href={url} target="_blank" title={`Go to ${name}`}>
+                        <figure>
+                            {img && <img src={img.default.src} alt={name} />}
+                        </figure>
+                    </a>
+                    <div class="info">
+                        <h2>{name}</h2>
+                        <h4>{description}</h4>
+                        <ul>
+                            {highlights.map((item) => (
+                                <li class="highlights">{item}</li>
+                            ))}
+                        </ul>
+                        <ul class="tools">
+                            {tools.map((item) => (
+                                <li class="tool">{item}</li>
+                            )
+                            )}
+                        </ul>
+                        <h6>{role}</h6>
+                    </div>
+                </article>
+            )
+            
+        }) 
+    }
+    
+</section>
+
+<style>
+
+    section {
+        max-width: 1100px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin: 0 auto;
+    }
+    article {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+    }
+
+    a, .info {
+        width: 550px;
+    }
+    
+    figure {
+        width: 100%;
+        height: 380px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    img {
+        max-width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .highlights {
+        font-style: italic;
+        list-style: circle;
+        margin-left: 20px;
+    }
+
+    h6 {
+        color: var(--primary-hover);
+        text-decoration: underline;
+    }
+
+    .tools {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 20px;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .tool {
+        background-color: var(--tertiary);
+        color: var(--text);
+        font-size: 0.85rem;
+        font-weight: medium;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+</style>
